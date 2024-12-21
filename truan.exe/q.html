@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="/Classic theme/klaviotyra-classic.png" type="image/x-icon">
+    <link rel="stylesheet" href="/q.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>клавиатура</title>
+</head>
+<body> 
+<div id="tx1">
+    <p> </p>
+</div>
+
+<!-- Клавиатура -->
+<div class="claviotyra">
+    <button id="button-mini" class="mini">~</button>
+
+    <button id="1" class="button">1</button>
+    <button id="2" class="button">2</button>
+    <button id="3" class="button">3</button>
+    <button id="4" class="button">4</button>
+    <button id="5" class="button">5</button>
+    <button id="6" class="button">6</button>
+    <button id="7" class="button">7</button>
+    <button id="8" class="button">8</button>
+    <button id="9" class="button">9</button>
+    <button id="0" class="button">0</button>
+    <button id="-" class="button">-</button>
+    <button id="+" class="button">+</button>
+    <button class="mini" id="lparen">(</button>
+    <button class="mini" id="rparen">)</button>
+    <button class="mini" id="quote">'</button>
+    <button id="Й" class="button">Й</button>
+    <button id="Ц" class="button">Ц</button>
+    <button id="У" class="button">У</button>
+    <button id="К" class="button">К</button>
+    <button id="Е" class="button">Е</button>
+    <button id="Н" class="button">Н</button>
+    <button id="Г" class="button">Г</button>
+    <button id="Ш" class="button">Ш</button>
+    <button id="Щ" class="button">Щ</button>
+    <button id="З" class="button">З</button>
+    <button id='"' class="button">"</button>
+    <button id="skob1" class="mini">{</button>
+    <button id="skob2" class="mini">}</button>
+    <button id="underscore" class="mini">_</button>
+    <button id="kub1" class="mini">[</button>
+    <button id="kub2" class="mini">]</button>
+    <button id="Х" class="button">Х</button>
+    <button id="Ъ" class="button">Ъ</button>
+    <button id="Ф" class="button">Ф</button>
+    <button id="Ы" class="button">Ы</button>
+    <button id="В" class="button">В</button>
+    <button id="А" class="button">А</button>
+    <button id="П" class="button">П</button>
+    <button id="Р" class="button">Р</button>
+    <button id="О" class="button">О</button>
+    <button id="М" class="button">М</button>
+    <button id="И" class="button">И</button>
+    <button id="Т" class="button">Т</button>
+    <button id="Ь" class="button">Ь</button>
+    <button id="Б" class="button">Б</button>
+    <button id="Ю" class="button">Ю</button>
+    <button id=":" class="button">:</button>
+    <button id="point" class="mini">.</button>
+    <button id="rovno" class="mini">=</button>
+    <button id="vopros" class="mini">?</button>
+    <button id="!" class="mini">!</button>
+    <button id="@" class="mini">@</button>
+    <button id="#" class="mini">#</button>
+    <button id="," class="mini">,</button>
+    <button id="№" class="button">№</button>
+    <button id="Л" class="button">Л</button>
+    <button id="Д" class="button">Д</button>
+    <button id="Ж" class="button">Ж</button>
+    <button id="Э" class="button">Э</button>
+    <button id="space" class="button" onclick="addSpace()">Пробел</button>
+    <button id="Я" class="button">Я</button>
+    <button id="Ч" class="button">Ч</button>
+    <button id="С" class="button">С</button>
+    <button id="backspace" class="button" onclick="backspace()">Бэкспейс</button>
+</div>
+<button id="uuu">звук</button>
+<div class="audio-player">
+    <button id="play-btn">Играть</button>
+    <button id="pause-btn">Пауза</button>
+    <button id="stop-btn">Стоп</button>
+    <input id="volume-control" type="range" min="0" max="1" step="0.01" value="1">
+</div>
+
+<audio controls id="audio" src=""></audio>
+
+<script src="/q.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+#tx1 {
+    width: 1515px;
+    height: 338px;
+    border: 3px solid #000;
+    overflow: hidden;
+    justify-content: center;
+    overflow-wrap: break-word;
+    background-color: rgba(142, 142, 142, 0.183);
+    color: #e5ff00;
+}
+
+.claviotyra {
+    padding: 30px;
+    display: flex;
+    /* Используем Flexbox */
+    justify-content: center;
+    /* Центрируем по горизонтали */
+    align-items: center;
+    /* Центрируем по вертикали */
+    height: 200px;
+    width: 820px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: blue; */
+}
+
+.button {
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 3s;
+    background-color:hsl(189, 74%, 35%);
+    border: 2px solid aliceblue;
+    border-radius: 3px;
+}
+
+.button:hover {
+    color: rgb(247, 255, 25);
+    width: 57px;
+    height: 57px;
+    /* background-image: url(https://i.ytimg.com/vi/Vxt33PIGUjo/maxresdefault.jpg); */
+    transition: 1s;
+    /* border: 3px solid rgb(255, 255, 255); */
+    background-color: rgb(30, 207, 130);
+}
+
+#button-mini {
+    width: 30px;
+    height: 55px;
+    font-size: 20px;
+    transition: 0.3s;
+    background-color:hsl(189, 74%, 35%);
+}
+
+#button-mini:hover {
+    color: rgb(247, 255, 25);
+    width: 32px;
+    height: 57px;
+    /* background-image: url(https://i.ytimg.com/vi/Vxt33PIGUjo/maxresdefault.jpg); */
+    transition: 1s;
+    /* border: 3px solid rgb(255, 255, 255); */
+    background-color: rgb(30, 207, 130);
+}
+
+#skob1 {
+    width: 30px;
+    height: 55px;
+    font-size: 20px;
+    transition: 3s
+}
+#skob1:hover {
+    width: 32px;
+    height: 57px;
+    font-size: 20px;
+    transition: 1s
+}
+
+#skob2 {
+    width: 30px;
+    height: 55px;
+    font-size: 20px;
+    transition: 3s
+}
+#skob2:hover{
+    width: 32px;
+    height: 57px;
+    font-size: 20px;
+    transition: 1s
+
+}
+
+
+#point {
+    width: 30px;
+    height: 55px;
+    font-size: 20px;
+    transition: 3s;
+    background-color:hsl(189, 74%, 35%);
+}
+
+#point:hover {
+    background-color: rgb(30, 207, 130);
+    transition: 1s;
+    color: rgb(247, 255, 25);
+    width: 32px;
+    height: 57px;
+}
+#rovno {
+    width: 30px;
+    height: 55px;
+    font-size: 20px;
+    transition: 0.3s
+}
+#rovno:hover{
+    background-color: rgb(30, 207, 130);
+    transition: 1s;
+    color: rgb(247, 255, 25);
+    width: 32px;
+    height: 57px;
+}
+
+
+#backspace {
+    width: 130px;
+}
+
+#space {
+    width: 270px;
+}
+
+#pay-button {
+    width: 106px;
+    height: 50px;
+    transition: 1s;
+    font-size: 20px;
+}
+
+#pay-button:hover {
+    width: 110px;
+    height: 55px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+body{
+    background: #000;
+}
+#enter{
+    width: 100px;
+}
+#buttonContainer {
+    display: none;
+    /* margin-top: 10px; */
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    /* background-color: #f9f9f9; */
+}
+#toggleButton{
+    width: 100px;
+    height: 55px;
+}
+
+#dark-button {
+    width: 100px;
+    height: 50px;
+    transition: 1s;
+    font-size: 20px;
+}
+
+#light-button {
+    width: 100px;
+    height: 50px;
+    transition: 1s;
+    font-size: 20px;
+}
+
+#light-button:hover {
+    width: 105px;
+    height: 55px;
+    transition: 1s;
+    text-shadow: 1px 1px 0px #000;
+}
+
+#dark-button:hover {
+    width: 110px;
+    height: 55px;
+    transition: 1s;
+    text-shadow: 1px 1px 0px #000;
+}
+#modern-button{
+    width: 100px;
+    height: 50px;
+}
+#modern-button:hover{
+    width: 105px;
+    height: 55px;
+    transition: 1s;
+    text-shadow: 1px 1px 0px #000;
+}
+#del-button{
+    width: 110px;
+    height: 50px;
+    transition: 1s;
+    font-size: 20px;
+}
+#del-button:hover{
+    width: 115px;
+    height: 55px;
+    transition: 1s;
+    text-shadow: 1px 1px 0px #000;
+}

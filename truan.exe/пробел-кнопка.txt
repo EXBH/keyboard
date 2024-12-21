@@ -1,0 +1,89 @@
+//script.js
+
+function addSpace() {
+    let tx1 = document.getElementById("tx1");
+    tx1.innerHTML += "&nbsp;"
+}
+
+    index.html
+
+    <button id="space" onclick="addSpace()">space</button>
+    <!-- _______ -->
+
+    ctyle/css
+
+    line-height: 1.5; /* Увеличивает расстояние между строками */
+
+  ________________________________________  
+  
+document.getElementById("1").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "1"
+})
+// ________________________________________
+document.getElementById("2").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "2"
+})
+// ________________________________________
+document.getElementById("3").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "3"
+})
+// ________________________________________
+document.getElementById("4").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "4"
+})
+// ________________________________________
+document.getElementById("5").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "5"
+})
+// ________________________________________
+document.getElementById("6").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "6"
+})
+// ________________________________________
+document.getElementById("7").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "7"
+})
+// ________________________________________
+document.getElementById("8").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "8"
+})
+// ________________________________________
+document.getElementById("9").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "9"
+})
+// ________________________________________
+document.getElementById("0").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "0"
+})
+// ________________________________________
+
+    background-image: url('https://i.ytimg.com/vi/VFUNJEdkhtM/maxresdefault.jpg');
+    background-size: cover;
+    
+    http://127.0.0.1:5500/Classic%20theme/classic.html
+
+
+    https://i.pinimg.com/originals/88/e8/64/88e8644167e29a580098ca6bb33adad5.gif
+
+
+
+    body{
+    background: url(https://i.ytimg.com/vi/VFUNJEdkhtM/maxresdefault.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+    <!-- <div id="buttonContainer">
+        <button id="dark-button" class="button" onclick="dark()">Тёмная тема</button>
+        <button id="light-button" class="button" onclick="light()">тема Космо</button>
+        <button id="modern-button" class="button" onclick=" modern()">тема Модерн</button>
+        <button id="del-button" class="button" onclick="del()">Удалить весь текст</button>
+    </div>
+
+    <button id="enter" class="button">Энтер</button>
+    <button id="toggleButton" class="button">Показать темы</button>
+    <button id="languages" class="languages" onclick="languages()">Языки: Русский</button>
+    </div> -->
+
+<!-- _______________ -->
